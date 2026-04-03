@@ -18,7 +18,7 @@ export default function Dashboard() {
             header={
               <div className={styles.balanceHeader}>
                 <div>
-                  <Text size={200}>Current Balance</Text>
+                  <div><Text size={200}>Current Balance</Text></div>
                   <Title2>SGD {state.balance.toLocaleString()}</Title2>
                 </div>
                 <Text size={200} style={{ color: '#999' }}>14-day forecast</Text>
