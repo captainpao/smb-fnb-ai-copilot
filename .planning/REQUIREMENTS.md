@@ -97,38 +97,38 @@
 | TOOL-01 | Phase 1 | Pending |
 | TOOL-02 | Phase 1 | Pending |
 | TOOL-03 | Phase 1 | Pending |
-| DATA-01 | Phase 2 | Pending |
-| DATA-02 | Phase 2 | Pending |
-| DATA-03 | Phase 2 | Pending |
-| DATA-04 | Phase 2 | Pending |
-| DATA-05 | Phase 2 | Pending |
-| NAV-01 | Phase 3 | Pending |
-| NAV-02 | Phase 3 | Pending |
-| NAV-03 | Phase 3 | Pending |
-| CASH-01 | Phase 3 | Pending |
-| CASH-02 | Phase 3 | Pending |
-| CASH-03 | Phase 3 | Pending |
-| INSG-01 | Phase 4 | Pending |
-| INSG-02 | Phase 4 | Pending |
-| INSG-03 | Phase 4 | Pending |
-| INSG-04 | Phase 4 | Pending |
-| INSG-05 | Phase 4 | Pending |
-| SIM-01 | Phase 5 | Pending |
-| SIM-02 | Phase 5 | Pending |
-| SIM-03 | Phase 5 | Pending |
-| SIM-04 | Phase 5 | Pending |
-| SUPP-01 | Phase 4 | Pending |
-| SUPP-02 | Phase 4 | Pending |
-| SUPP-03 | Phase 4 | Pending |
-| FIN-01 | Phase 4 | Pending |
-| FIN-02 | Phase 4 | Pending |
-| RESP-01 | Phase 3 | Pending |
-| RESP-02 | Phase 3 | Pending |
-| RESP-03 | Phase 3 | Pending |
-| RESP-04 | Phase 4 | Pending |
-| TEST-01 | Phase 5 | Pending |
-| BUILD-01 | Phase 5 | Pending |
-| BUILD-02 | Phase 5 | Pending |
+| DATA-01 | Phase 1 | Pending |
+| DATA-02 | Phase 1 | Pending |
+| DATA-03 | Phase 1 | Pending |
+| DATA-04 | Phase 1 | Pending |
+| DATA-05 | Phase 1 | Pending |
+| NAV-01 | Phase 1 | Pending |
+| NAV-02 | Phase 1 | Pending |
+| NAV-03 | Phase 1 | Pending |
+| CASH-01 | Phase 2 | Pending |
+| CASH-02 | Phase 2 | Pending |
+| CASH-03 | Phase 2 | Pending |
+| RESP-01 | Phase 2 | Pending |
+| RESP-02 | Phase 2 | Pending |
+| RESP-03 | Phase 2 | Pending |
+| INSG-01 | Phase 3 | Pending |
+| INSG-02 | Phase 3 | Pending |
+| INSG-03 | Phase 3 | Pending |
+| INSG-04 | Phase 3 | Pending |
+| INSG-05 | Phase 3 | Pending |
+| SUPP-01 | Phase 3 | Pending |
+| SUPP-02 | Phase 3 | Pending |
+| SUPP-03 | Phase 3 | Pending |
+| FIN-01 | Phase 3 | Pending |
+| FIN-02 | Phase 3 | Pending |
+| RESP-04 | Phase 3 | Pending |
+| SIM-01 | Phase 4 | Pending |
+| SIM-02 | Phase 4 | Pending |
+| SIM-03 | Phase 4 | Pending |
+| SIM-04 | Phase 4 | Pending |
+| TEST-01 | Phase 4 | Pending |
+| BUILD-01 | Phase 4 | Pending |
+| BUILD-02 | Phase 4 | Pending |
 
 **Coverage:**
 - v1 requirements: 35 total
@@ -137,4 +137,4 @@
 
 ---
 *Requirements defined: 2026-04-03*
-*Last updated: 2026-04-03 after initial definition*
+*Last updated: 2026-04-03 after roadmap creation (coarse granularity: 4 phases)*
