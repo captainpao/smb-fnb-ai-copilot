@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Segoe UI', system-ui, sans-serif;
-  background-color: #141414;
-  color: #fff;
+  background-color: #f0f4fb;
+  color: #111;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -16,10 +16,10 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1a1a1a;
+  background: #e8edf5;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #444;
+  background: #b0bdd4;
   border-radius: 3px;
 }

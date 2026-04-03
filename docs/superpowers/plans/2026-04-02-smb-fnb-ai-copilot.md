@@ -819,7 +819,7 @@ export default function NavBar() {
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.brand}>F&B Co-Pilot</div>
+      <div className={styles.brand}>SMB Cashflow Management</div>
       <TabList
         selectedValue={pathname}
         onTabSelect={(_, data) => navigate(data.value as string)}

@@ -25,7 +25,7 @@ export default function Payments() {
           header={
             <div className={styles.cardHeaderContent}>
               <Text weight="semibold">Upcoming Payments</Text>
-              <Text size={200} style={{ color: '#999' }}>Next 14 days</Text>
+              <Text size={200} style={{ color: '#6b7a99' }}>Next 14 days</Text>
             </div>
           }
         />

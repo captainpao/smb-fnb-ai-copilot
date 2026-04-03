@@ -28,15 +28,15 @@ export default function CashFlowChart({ forecast }: Props) {
       {
         label: 'Projected Balance',
         data: forecast.map(d => d.projectedBalance),
-        borderColor: '#0078d4',
-        backgroundColor: 'rgba(0, 120, 212, 0.1)',
+        borderColor: '#0473ea',
+        backgroundColor: 'rgba(4, 115, 234, 0.08)',
         fill: true,
         tension: 0.3,
       },
       {
         label: 'Lower Bound',
         data: forecast.map(d => d.lowerBound),
-        borderColor: 'rgba(255,255,255,0.15)',
+        borderColor: 'rgba(2, 11, 67, 0.15)',
         borderDash: [4, 4],
         pointRadius: 0,
         fill: false,
@@ -44,7 +44,7 @@ export default function CashFlowChart({ forecast }: Props) {
       {
         label: 'Upper Bound',
         data: forecast.map(d => d.upperBound),
-        borderColor: 'rgba(255,255,255,0.15)',
+        borderColor: 'rgba(2, 11, 67, 0.15)',
         borderDash: [4, 4],
         pointRadius: 0,
         fill: false,
@@ -66,15 +66,15 @@ export default function CashFlowChart({ forecast }: Props) {
     },
     scales: {
       x: {
-        ticks: { color: '#999', maxTicksLimit: 7 },
-        grid: { color: 'rgba(255,255,255,0.05)' },
+        ticks: { color: '#6b7a99', maxTicksLimit: 7 },
+        grid: { color: 'rgba(2, 11, 67, 0.06)' },
       },
       y: {
         ticks: {
-          color: '#999',
+          color: '#6b7a99',
           callback: (v: number | string) => `$${Number(v).toLocaleString()}`,
         },
-        grid: { color: 'rgba(255,255,255,0.05)' },
+        grid: { color: 'rgba(2, 11, 67, 0.06)' },
       },
     },
   }

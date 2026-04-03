@@ -11,7 +11,7 @@ export default function Dashboard() {
   const resolvedInsights = state.insights.filter(i => i.status !== 'pending')
 
   return (
-    <div className={styles.layout}>
+    <div>
       <section className={styles.heroSection}>
         <Card>
           <CardHeader
@@ -21,7 +21,7 @@ export default function Dashboard() {
                   <div><Text size={200}>Current Balance</Text></div>
                   <Title2>SGD {state.balance.toLocaleString()}</Title2>
                 </div>
-                <Text size={200} style={{ color: '#999' }}>14-day forecast</Text>
+                <Text size={200} style={{ color: '#6b7a99' }}>14-day forecast</Text>
               </div>
             }
           />
@@ -34,30 +34,33 @@ export default function Dashboard() {
       <section className={styles.insightsSection}>
         <Text weight="semibold" size={400}>AI Suggestions</Text>
         {pendingInsights.length === 0 && (
-          <Text size={200} style={{ color: '#888' }}>No pending suggestions</Text>
+          <Text size={200} style={{ color: '#6b7a99' }}>No pending suggestions</Text>
         )}
-        {pendingInsights.map(insight => (
-          <InsightCard
-            key={insight.id}
-            insight={insight}
-            onApprove={id => dispatch({ type: 'APPROVE_INSIGHT', id })}
-            onDismiss={id => dispatch({ type: 'DISMISS_INSIGHT', id })}
-          />
-        ))}
-
-        <FinanceCard />
+        <div className={styles.insightsGrid}>
+          {pendingInsights.map(insight => (
+            <InsightCard
+              key={insight.id}
+              insight={insight}
+              onApprove={id => dispatch({ type: 'APPROVE_INSIGHT', id })}
+              onDismiss={id => dispatch({ type: 'DISMISS_INSIGHT', id })}
+            />
+          ))}
+          <FinanceCard />
+        </div>
 
         {resolvedInsights.length > 0 && (
           <>
-            <Text weight="semibold" size={300} style={{ color: '#888' }}>Resolved</Text>
-            {resolvedInsights.map(insight => (
-              <InsightCard
-                key={insight.id}
-                insight={insight}
-                onApprove={id => dispatch({ type: 'APPROVE_INSIGHT', id })}
-                onDismiss={id => dispatch({ type: 'DISMISS_INSIGHT', id })}
-              />
-            ))}
+            <Text weight="semibold" size={300} style={{ color: '#6b7a99' }}>Resolved</Text>
+            <div className={styles.insightsGrid}>
+              {resolvedInsights.map(insight => (
+                <InsightCard
+                  key={insight.id}
+                  insight={insight}
+                  onApprove={id => dispatch({ type: 'APPROVE_INSIGHT', id })}
+                  onDismiss={id => dispatch({ type: 'DISMISS_INSIGHT', id })}
+                />
+              ))}
+            </div>
           </>
         )}
       </section>

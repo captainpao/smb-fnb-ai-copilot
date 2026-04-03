@@ -2,16 +2,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 24px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  background-color: #1a1a1a;
+  padding: 0 24px;
+  border-bottom: 1px solid #dce4f0;
+  background-color: #fff;
 }
 
 .brand {
   font-size: 16px;
-  font-weight: 600;
-  color: #fff;
+  font-weight: 700;
+  color: #020b43;
   white-space: nowrap;
+  letter-spacing: -0.3px;
 }
 
 .tabList {
@@ -26,7 +27,7 @@
     left: 0;
     right: 0;
     top: auto;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid #dce4f0;
     border-bottom: none;
     padding: 4px 8px;
     z-index: 100;
