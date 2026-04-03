@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: #1a1a1a;
+}
+
+.brand {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.tabList {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: none;
+    padding: 4px 8px;
+    z-index: 100;
+  }
+
+  .brand {
+    display: none;
+  }
+
+  .tabList {
+    justify-content: space-around;
+    width: 100%;
+  }
+}

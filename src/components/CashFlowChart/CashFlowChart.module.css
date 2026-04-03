@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.chartWrapper {
+  height: 260px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .chartWrapper {
+    height: 200px;
+  }
+}
