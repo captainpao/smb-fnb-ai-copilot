@@ -8,11 +8,20 @@
 }
 
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 16px;
   font-weight: 700;
   color: #020b43;
   white-space: nowrap;
   letter-spacing: -0.3px;
+}
+
+.brandLogo {
+  height: 28px;
+  width: auto;
+  display: block;
 }
 
 .tabList {
