@@ -5,6 +5,7 @@ import {
   ArrowTrendingLinesRegular,
   PaymentRegular,
 } from '@fluentui/react-icons'
+import logoUrl from '../../assets/logo.png'
 import styles from './NavBar.module.css'
 
 const tabs = [
@@ -19,7 +20,10 @@ export default function NavBar() {
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.brand}>SMB Cashflow Management</div>
+      <div className={styles.brand}>
+        <img src={logoUrl} alt="SMB Co-Pilot logo" className={styles.brandLogo} />
+        SMB Cashflow Management
+      </div>
       <TabList
         selectedValue={pathname}
         onTabSelect={(_, data) => navigate(data.value as string)}
