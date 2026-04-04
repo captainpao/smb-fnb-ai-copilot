@@ -28,7 +28,7 @@ See: .planning/PROJECT.md (updated 2026-04-03)
 Phase: 1 of 4 (Foundation)
 Plan: 0 of TBD in current phase
 Status: Ready to plan
-Last activity: 2026-04-03 — Roadmap created; all 35 v1 requirements mapped to 4 phases
+Last activity: 2026-04-04 - Completed quick task 260404-ezl: Add logo to header and favicon to index.html
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -75,6 +75,12 @@ None yet.
 - [Pre-Phase 6 research flag]: Delta indicator exact data shape (min balance date/amount from both base and simulated forecasts) — confirm before planning Phase 4
 - [Pre-Phase 7 research flag]: Mobile bottom tab navigation — Fluent UI v9 has no BottomTabBar; custom implementation approach to confirm before planning Phase 3
 - [Deployment]: Vite `base` URL (`'./'` vs `'/smb-fnb-ai-copilot/'`) — confirm deployment target before Phase 4 build step
+
+### Quick Tasks Completed
+
+| # | Description | Date | Commit | Directory |
+|---|-------------|------|--------|-----------|
+| 260404-ezl | Add logo to header and favicon to index.html | 2026-04-04 | 0015aba | [260404-ezl-add-logo-to-header-and-favicon-to-index-](./quick/260404-ezl-add-logo-to-header-and-favicon-to-index-/) |
 
 ## Session Continuity
 
