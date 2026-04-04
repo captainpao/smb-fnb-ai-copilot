@@ -22,7 +22,7 @@ export default function NavBar() {
     <nav className={styles.nav}>
       <div className={styles.brand}>
         <img src={logoUrl} alt="SMB Co-Pilot logo" className={styles.brandLogo} />
-        SMB Cashflow Management
+        SMB Cashflow Copilot
       </div>
       <TabList
         selectedValue={pathname}

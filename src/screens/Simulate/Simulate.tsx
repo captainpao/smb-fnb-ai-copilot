@@ -16,7 +16,7 @@ export default function Simulate() {
   return (
     <div className={styles.layout}>
       <div className={styles.header}>
-        <Text size={400} weight="semibold">Scenario Simulator</Text>
+        <Text size={400} weight="semibold">Cashflow Simulator</Text>
         <Text size={200} style={{ color: '#6b7a99' }}>
           Toggle options below to see real-time impact on your 14-day forecast
         </Text>

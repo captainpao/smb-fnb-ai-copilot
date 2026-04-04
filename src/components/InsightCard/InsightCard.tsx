@@ -4,10 +4,6 @@ import {
   CardFooter,
   Badge,
   Button,
-  Accordion,
-  AccordionItem,
-  AccordionHeader,
-  AccordionPanel,
   Text,
 } from '@fluentui/react-components'
 import { CheckmarkCircleRegular } from '@fluentui/react-icons'
@@ -46,14 +42,10 @@ export default function InsightCard({ insight, onApprove, onDismiss }: Props) {
         <Text className={styles.impact}>
           +SGD {insight.impact.toLocaleString()} cash impact
         </Text>
-        <Accordion collapsible>
-          <AccordionItem value="why">
-            <AccordionHeader>Why this?</AccordionHeader>
-            <AccordionPanel>
-              <Text size={200}>{insight.reasoning}</Text>
-            </AccordionPanel>
-          </AccordionItem>
-        </Accordion>
+        <div className={styles.reasoning}>
+          <Text size={200} weight="semibold">Why this?</Text>
+          <Text size={200}>{insight.reasoning}</Text>
+        </div>
       </div>
       <CardFooter>
         {isPending ? (

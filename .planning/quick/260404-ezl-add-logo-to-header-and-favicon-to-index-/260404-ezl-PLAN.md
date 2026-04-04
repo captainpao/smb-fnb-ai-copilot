@@ -12,7 +12,7 @@ autonomous: true
 requirements: []
 must_haves:
   truths:
-    - "Logo image appears to the left of the 'SMB Cashflow Management' brand text in the header"
+    - "Logo image appears to the left of the 'SMB Cashflow Copilot' brand text in the header"
     - "Browser tab shows the favicon.ico instead of the Vite default"
   artifacts:
     - path: "src/components/NavBar/NavBar.tsx"
@@ -56,7 +56,7 @@ Output: Updated NavBar.tsx, NavBar.module.css, and index.html.
        ```tsx
        <div className={styles.brand}>
          <img src={logoUrl} alt="SMB Co-Pilot logo" className={styles.brandLogo} />
-         SMB Cashflow Management
+         SMB Cashflow Copilot
        </div>
        ```
 
@@ -117,7 +117,7 @@ Visually confirm in dev server (`npm run dev`): logo appears left of brand text 
 
 <success_criteria>
 - `npm run build` exits 0
-- Logo image renders at 28px height left of "SMB Cashflow Management" text
+- Logo image renders at 28px height left of "SMB Cashflow Copilot" text
 - Browser tab favicon is favicon.ico (not vite.svg)
 </success_criteria>
 

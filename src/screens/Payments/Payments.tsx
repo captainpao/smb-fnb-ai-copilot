@@ -5,6 +5,9 @@ import styles from './Payments.module.css'
 
 export default function Payments() {
   const { state } = useAppContext()
+  const sortedSuppliers = [...state.suppliers].sort((a, b) =>
+    a.priority === b.priority ? 0 : a.priority === 'high-priority' ? -1 : 1
+  )
   const flexibleCount = state.suppliers.filter(s => s.priority === 'flexible').length
 
   return (
@@ -30,7 +33,7 @@ export default function Payments() {
           }
         />
         <div className={styles.tableContainer}>
-          <SupplierList suppliers={state.suppliers} />
+          <SupplierList suppliers={sortedSuppliers} />
         </div>
       </Card>
     </div>

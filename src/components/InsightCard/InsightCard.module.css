@@ -23,6 +23,12 @@
   font-weight: 600;
 }
 
+.reasoning {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
 .actions {
   display: flex;
   gap: 8px;
