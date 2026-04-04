@@ -44,3 +44,6 @@ coverage/
 
 # Optional tooling
 *.pem
+
+# GSD worktrees
+.claude/worktrees/
