@@ -138,7 +138,7 @@ Chart.register(Filler);
 
 ---
 
-### 3. Scenario Simulator (What-If Controls + Reactive Chart)
+### 3. Cashflow Simulator (What-If Controls + Reactive Chart)
 
 **UX conventions (MEDIUM confidence — drawn from financial planning tool patterns):**
 

@@ -161,13 +161,13 @@ The 15-task implementation plan already defines the full build sequence. The res
 
 **Tasks:** 9 (SupplierList component), 10 (Payments screen).
 
-### Phase 6: Scenario Simulator and Reactive Chart
+### Phase 6: Cashflow Simulator and Reactive Chart
 
 **Rationale:** The simulator is the "wow" moment of the demo — direct manipulation of sliders causes the chart to redraw in real time. This phase depends on `applySimulation` (Phase 2) and `CashFlowChart` (Phase 3). It is last among core features because it is the most dependent.
 
 **Delivers:** `SimulatorPanel` with Switch (delay payment toggle) and Slider (delay days, loan amount), real-time chart update via `useSimulatedForecast`, delta indicator strip ("Without changes: shortfall of $1,240 | With your changes: surplus of $420"), Simulate screen functional, 3 preset scenario buttons.
 
-**Addresses:** Scenario Simulator (differentiator), real-time chart update requirement, delta indicator (high demo value).
+**Addresses:** Cashflow Simulator (differentiator), real-time chart update requirement, delta indicator (high demo value).
 
 **Avoids:** Pitfall 4 (anti-pattern 2: do not store derived forecast in state — derive synchronously during render), Pitfall 8 (stale chart reference — `applySimulation` must return new array), Pitfall 13 (Slider `(_ev, data)` destructuring), Pitfall 14 (Switch must be controlled).
 

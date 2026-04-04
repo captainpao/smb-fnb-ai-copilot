@@ -103,7 +103,7 @@ A bank-integrated AI dashboard that:
 - `Button` (`appearance="primary"`) — Approve action
 - `Button` (`appearance="subtle"`) — Dismiss action
 
-### Scenario Simulator (Key Differentiator)
+### Cashflow Simulator (Key Differentiator)
 - Users test "what-if" scenarios
 - Examples: Toggle delay payment, toggle loan → see impact
 

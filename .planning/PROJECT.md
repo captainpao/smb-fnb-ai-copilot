@@ -21,7 +21,7 @@ An F&B owner can see a projected cash shortfall before it happens, understand ex
 - [ ] AI Insights Panel with ranked recommendations (delay payment, reduce inventory, financing)
 - [ ] "Why this?" expandable reasoning section per insight
 - [ ] Approve / Dismiss actions on each insight
-- [ ] Scenario Simulator with Switch + Slider controls (delay payment, loan amount)
+- [ ] Cashflow Simulator with Switch + Slider controls (delay payment, loan amount)
 - [ ] Real-time chart update when simulation parameters change
 - [ ] Supplier Payment list with AI recommendations and priority badges
 - [ ] Contextual Financing Card (non-intrusive loan suggestion)

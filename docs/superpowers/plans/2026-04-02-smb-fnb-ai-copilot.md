@@ -819,7 +819,7 @@ export default function NavBar() {
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.brand}>SMB Cashflow Management</div>
+      <div className={styles.brand}>SMB Cashflow Copilot</div>
       <TabList
         selectedValue={pathname}
         onTabSelect={(_, data) => navigate(data.value as string)}
@@ -1863,7 +1863,7 @@ export default function Simulate() {
   return (
     <div className={styles.layout}>
       <div className={styles.header}>
-        <Text size={400} weight="semibold">Scenario Simulator</Text>
+        <Text size={400} weight="semibold">Cashflow Simulator</Text>
         <Text size={200} style={{ color: '#999' }}>
           Toggle options below to see real-time impact on your 14-day forecast
         </Text>
@@ -2152,7 +2152,7 @@ git commit -m "feat: add global styles and finalize prototype"
 | Shortfall warning MessageBar | Task 7 |
 | AI Insights Panel with Approve/Dismiss | Tasks 8, 12 |
 | "Why this?" expandable section | Task 8 |
-| Scenario Simulator with Switch + Slider | Tasks 4, 10, 13 |
+| Cashflow Simulator with Switch + Slider | Tasks 4, 10, 13 |
 | Real-time chart update in Simulator | Task 13 |
 | Supplier Payment table with badges | Tasks 9, 14 |
 | Contextual Financing Card | Tasks 11, 12 |

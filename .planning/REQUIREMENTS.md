@@ -39,7 +39,7 @@
 - [ ] **INSG-04**: Dismiss button dispatches DISMISS_INSIGHT; card updates to dismissed state
 - [ ] **INSG-05**: Dashboard shows ranked list of pending AI insights
 
-### Scenario Simulator Feature
+### Cashflow Simulator Feature
 
 - [ ] **SIM-01**: SimulatorPanel has Switch to enable/disable payment delay + Slider for delay days (0–30)
 - [ ] **SIM-02**: SimulatorPanel has Switch to enable/disable loan + Slider for loan amount
